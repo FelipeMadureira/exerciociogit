@@ -9,6 +9,10 @@ git status
 => Verificar log
 git log
 
+==> Associar usuario e email
+git config --global user.name FelipeMadureira
+git config --global user.email fmadure@gmail.com
+
 => Enviar para repositorio local
 git add .
 
