@@ -1,0 +1,31 @@
+=> Comandos utilziados no Github
+
+=> Adicionar pasta no Git
+git init
+
+=> Verificar status
+git status
+
+=> Verificar log
+git log
+
+=> Enviar para repositorio local
+git add .
+
+=> Realizar commit
+git commit -m "nova funcionalidade (linha 4,5,6)"
+
+=> Gerar uma tag
+git tag -a v0.0.0 -m "update tag" b79a5ac6b26802de4584211937319d6350835773^C
+
+=> Criar Nova Branch
+git branch develop  ** develop nova branch
+
+=> Alterar Branch
+git checkout master
+
+=> Adicionar novo repositorio
+git remote add origin *** end do Git https://github.com/FelipeMadureira/repositorioaula5.git
+
+=> Enviar master para o Git
+git push origin master
