@@ -1,11 +1,11 @@
 package exercicio;
 
 public class Robo {
-    String nomeRobo, origem;
-    int posX, posY;
+    private String nomeRobo, origem;
+    private int posX, posY;
 
     //Construtor
-    Robo(String nomeRobo, String origem, int posX, int posY){
+    public Robo(String nomeRobo, String origem, int posX, int posY){
         this.nomeRobo = nomeRobo;
         this.origem = origem;
         this.posX = posX;
@@ -24,7 +24,7 @@ public class Robo {
     }
 
     public void controlaX(String comando){
-        if (comando == "Soma"){
+        if (comando.equals("Soma")){
             if (posX < 6){
                 posX++;
             }
@@ -35,8 +35,8 @@ public class Robo {
         }
     }
 
-    public void controlaY(String comando){
-        if (comando == "Soma"){
+    void controlaY(String comando){
+        if (comando.equals("Soma")){
             if (posY < 6){
                 posY++;
             }
